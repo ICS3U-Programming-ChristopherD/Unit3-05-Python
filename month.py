@@ -37,6 +37,8 @@ def main():
             print("11 is November.")
         case 12:
             print("12 is December.")
+
+        # Case executed if user inputs an non-month number:
         case _:
             print("Invalid month number.")
 
