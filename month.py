@@ -9,7 +9,7 @@
 def main():
 
     # Gets the user's month in numeric form.
-    user_number = int(input("Enter the number of a month: "))
+    user_number = float(input("Enter the number of a month: "))
 
     # Match-case structure for months and their corresponding number.
     match user_number:
